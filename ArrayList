@@ -1,0 +1,21 @@
+package MyJavaWorld;
+
+import java.util.ArrayList;
+public class Practice {
+    public static void main(String[] args) {
+        ArrayList pitches = new ArrayList();
+        pitches.add("138");
+        pitches.add("93");
+        pitches.add("168");
+        //추가는 변수명.add로 작성
+        //변수명.get(#)는 리스트안에 저장된 순서대로 #번의 내용을 가져온다.
+        //변수명.size()는 리스트안의 들어있는갯수대로 알려줌
+        System.out.println(pitches.get(2));
+        System.out.println(pitches.size());
+        System.out.println(pitches.contains(199));
+        //변수명.contains()는 리스트안에 해당()의 내용이 있는지 없는지를 boolean으로 출력함
+        //변수명.remove()는 리스트안에 해당 ()값의 내용이 있으면 지우고 true를 출력하고 없으면 그냥 false를 출력한다.
+
+        }
+
+}
